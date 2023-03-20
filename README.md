@@ -3,7 +3,7 @@ Analysis software development for IR AFM scan images and hyperspectral Scans
 
 This sofware is part of hyperspectral analysis methods used in the manuscript of: "Nanoscale chemical characterization of secondary protein structure of F-Actin using mid-infrared photoinduced force microscopy (PiF-IR)".
 
-By: Jesvin Joseph, Lukas Spantzel, Maryam Ali, Dijo Moonnukandathil Josepha, Sebastian Unger, Katharina Reglinski, Christoph Krafft, Anne-Dorothea Müller, Christian Eggeling, Rainer Heintzmann, Michael Börsch, Adrian T. Press, Daniela Täuber.
+By: Jesvin Joseph, Lukas Spantzel, Maryam Ali, Dijo Moonnukandathil Joseph, Sebastian Unger, Katharina Reglinski, Christoph Krafft, Anne-Dorothea Müller, Christian Eggeling, Rainer Heintzmann, Michael Börsch, Adrian T. Press, Daniela Täuber.
 
 Contributions in this code so far have been made by Sebastian Unger, Maryam Ali, René Lachmann, Rainer Heintzmann, Daniela Täuber, and Mohammad Soltaninezhad
 
