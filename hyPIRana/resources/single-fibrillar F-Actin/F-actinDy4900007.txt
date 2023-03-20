@@ -1,0 +1,296 @@
+
+;ANFATEC Parameterfile
+
+Version : 1.12
+VistaScanVersion : 2.2.0.42
+Date : 01/24/2023
+Time : 08:13:29 PM
+UTCDateTime : 2023/01/24 19:13:29
+UserName : Daniela + Jesvin
+ComputerName : PIFM-1925773
+SampleName : F-actinDy490
+CantileverType : NCHPt
+CantileverID : NCHPt-dte57
+Scanner : Scan controller (Scanner)
+Scanner calibration : Scanner parameters from VS22 12APR18.ini
+Objective calibration : softlinObjective.ini
+Head calibration : softlinHead.ini
+Lockin calibration : controller_574-580-549-16.ini
+StartDate : 01/24/2023
+StartTime : 04:00:42 PM
+
+FeedbackMode     : pifm_hypir
+FeedbackModePiFM : 22
+SetPoint         : 85
+SetPointPhysUnit : V
+FeedBackModus    : ncAFM R
+Bias             : 0
+BiasPhysUnit     : mV
+Ki               : 0
+Kp               : 1
+
+FastZKi    : 0.5
+FastZKp    : 0
+FastZTd    : 0
+FastZAlpha : 3
+
+XStage     : 176.511735 ; µm
+YStage     : -44.6190600000001 ; µm
+XScanRange : 0.256
+YScanRange : 0.256
+XPhysUnit  : µm
+YPhysUnit  : µm
+Speed      : 0.1 ; lines/sec
+Angle      : 0 ; degrees
+xPixel     : 32
+yPixel     : 32
+yCenter    : 0.2
+xCenter    : -1
+dzdx       : 0
+dzdy       : 0
+overscan[%]: 2.5
+
+LockInFreq         : 1523243.875
+LockInFreqPhysUnit : Hz
+LockInAmpl         : 1.59729190552038
+LockInAmplPhysUnit : V
+LockInPhysAmpl         : 1
+LockInPhysAmplPhysUnit : nm
+
+TimeConstant  : 5 ms
+RollOff       : 12 db/oct
+DetectionFrequency : 243071.421875
+Laser1State     : On
+Laser1Name     : Laser wrapper [Q0259]
+Laser1LaserWavelength: 6020.46959662854 ; nm
+Laser1DutyCycle : 50 ; %
+Laser1VoltageLow: 0.5 ; V
+Laser1VoltageHigh: 5 ; V
+Laser1Frequency : 1280172.453125 ; Hz
+
+FileDescBegin
+FileName : F-actinDy4900007PiFMFwd.int
+Caption  : PiFMFwd
+Scale    : 1.36925986778462e-9
+PhysUnit : V
+Offset   : 0
+FileDescEnd
+
+FileDesc2Begin
+FileName : F-actinDy4900007hyPIRFwd.int
+Caption  : hyPIRFwd
+BytesPerPixel : 404
+Scale    : 1e-9
+PhysUnit : V
+Offset   : 0
+DataType : Spectrogram
+BytesPerReading : 4
+FileNameWavelengths : F-actinDy4900007hyPIRFwdWavelengths.txt
+PhysUnitWavelengths : 1/cm
+StitchWavelengths: 10121.4574898785 7407.40740740741 6024.09638554217
+FileDesc2End
+
+FileDescBegin
+FileName : F-actinDy4900007TopographyFwd.int
+Caption  : TopographyFwd
+Scale    : 3.9014e-6
+PhysUnit : nm
+Offset   : 0
+FileDescEnd
+
+FileDescBegin
+FileName : F-actinDy4900007AFMHead-ZFwd.int
+Caption  : AFMHead-ZFwd
+Scale    : -2.834e-7
+PhysUnit : nm
+Offset   : 0
+FileDescEnd
+
+FileDescBegin
+FileName : F-actinDy4900007Scanner-ZFwd.int
+Caption  : Scanner-ZFwd
+Scale    : -3.618e-6
+PhysUnit : nm
+Offset   : 0
+FileDescEnd
+
+FileDescBegin
+FileName : F-actinDy4900007AmplitudeFwd.int
+Caption  : AmplitudeFwd
+Scale    : 3.01143288806455e-9
+PhysUnit : V
+Offset   : 0
+FileDescEnd
+
+FileDescBegin
+FileName : F-actinDy4900007PhaseFwd.int
+Caption  : PhaseFwd
+Scale    : 1e-3
+PhysUnit : °
+Offset   : 0
+FileDescEnd
+
+FileDesc2Begin
+FileName : F-actinDy4900007PiFM TunerFwd.int
+Caption  : PiFM TunerFwd
+BytesPerPixel : 120
+Scale    : 3.01143e-9
+PhysUnit : V
+Offset   : 0
+DataType : Spectrogram
+BytesPerReading : 4
+FileNameWavelengths : F-actinDy4900007PiFM TunerFwdWavelengths.txt
+PhysUnitWavelengths : Hz
+FileDesc2End
+
+
+AFMSpectrumDescBegin
+FileName  : F-actinDy4900007_powerspectrum_LaserTune LT-OEM[Q0259].txt
+SpectrumType: Optical
+AFMSpectrumDescEnd
+
+;(at 2023/01/24 15:59:17): Apply parameters (SetFeedback)
+;  Scan position: line=127 dir=Down
+;  feedbackmode=4
+;  setpoint=85
+;  ki=0
+;  kp=1
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Apply parameters (SetFeedback)
+;  Scan position: line=127 dir=Down
+;  feedbackmode=4
+;  setpoint=85
+;  ki=0
+;  kp=1
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Apply parameters (SetFeedback)
+;  Scan position: line=127 dir=Down
+;  feedbackmode=4
+;  setpoint=85
+;  ki=0
+;  kp=1
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Apply parameters (SetFeedback)
+;  Scan position: line=127 dir=Down
+;  feedbackmode=4
+;  setpoint=85
+;  ki=0
+;  kp=1
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Apply parameters (SetFeedback)
+;  Scan position: line=127 dir=Down
+;  feedbackmode=4
+;  setpoint=85
+;  ki=0
+;  kp=1
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:17): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:32): Apply parameters (SetFeedback)
+;  Scan position: line=127 dir=Down
+;  feedbackmode=4
+;  setpoint=85
+;  ki=0
+;  kp=1
+;(at 2023/01/24 15:59:32): Set cantilever drive voltage
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:32): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:32): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 15:59:32): Set cantilever drive voltage (with specified scale)
+;  Scan position: line=127 dir=Down
+;  voltage = 1.59729190552038
+;(at 2023/01/24 20:13:29): Completed scan
+
+FileDescBegin
+FileName : F-actinDy4900007.hyPIRFwd summed at 1655 1cm.int
+Caption  : hyPIRFwd summed at 1655 1/cm
+Scale    : 4.4033769415041e-13
+PhysUnit : V
+Offset   : 6.25467000645585e-4
+FileDescEnd
+
+FileDescBegin
+FileName : F-actinDy4900007.hyPIRFwd summed at 1630 1cm.int
+Caption  : hyPIRFwd summed at 1630 1/cm
+Scale    : 4.56667012148013e-13
+PhysUnit : V
+Offset   : 7.74071464547887e-4
+FileDescEnd
+
+FileDescBegin
+FileName : F-actinDy4900007.hyPIRFwd summed at 1684 1cm.int
+Caption  : hyPIRFwd summed at 1684 1/cm
+Scale    : 2.38125203556134e-14
+PhysUnit : V
+Offset   : 8.30544977361569e-5
+FileDescEnd

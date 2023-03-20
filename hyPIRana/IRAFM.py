@@ -213,7 +213,6 @@ class IRAFM(dict):
                 plt.colorbar(ax.imshow(np.sum(data, axis=2), cmap='inferno',
                              extent=extent), label=my_file['PhysUnit'])
             else:
-
                 plt.colorbar(ax.imshow(data, extent=extent),
                              cmap='inferno', label=my_file['PhysUnit'])
 

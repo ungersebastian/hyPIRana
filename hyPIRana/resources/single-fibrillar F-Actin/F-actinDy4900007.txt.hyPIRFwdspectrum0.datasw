@@ -1,0 +1,5 @@
+<datasw type="spectrum">
+  <subcontents item="functions_display_0_1"/>
+  <subcontents item="functions_data_0_1"/>
+  <subcontents item="params_raman_0_1" mode="all" min="1623.87096774194" max="1635.2688172043" minManual="2.31910991715267e-4" maxManual="5e-4"/>
+</datasw>
