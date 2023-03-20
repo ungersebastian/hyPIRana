@@ -15,3 +15,9 @@ So far experimental methods have been:
 - FTIR
 - Raman spectroscopy
 - optical photothermal infrared spectroscopy (O-PTIR)
+
+
+This code analyse the hyper spectral data by:
+- Plotting generated images: Topography, hypersctral image, and phase image.
+- Plotting the mean spectrum on PiFM intensity.
+- Principal Component Analysis PCA represented by loaded components plot, scatter plot, and individual component factor plots.
