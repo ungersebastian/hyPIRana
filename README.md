@@ -1,4 +1,8 @@
 # hyPIRana
+
+see also [hyPIRana release v.1.0.0 on BioPOLIMgit](https://github.com/BioPOLIM/hyPIRana/releases/tag/hyPIRana)
+for updates see: [hyPIRana on BioPOLIMgit](https://github.com/BioPOLIM/hyPIRana)
+
 Analysis software development for IR-PiFM / PiF-IR scan images and hyperspectral Scans 
 
 This sofware is part of hyperspectral analysis methods used in the published article: "Nanoscale chemical characterization of secondary protein structure of F-Actin using mid-infrared photoinduced force microscopy (PiF-IR)" by Jesvin Joseph, Lukas Spantzel, Maryam Ali, Dijo Moonnukandathil Joseph, Sebastian Unger, Katharina Reglinski, Christoph Krafft, Anne-Dorothea Müller, Christian Eggeling, Rainer Heintzmann, Michael Börsch, Adrian T. Press, Daniela Täuber. Spectrochimica Acta part A: Molecular and Biomolecular Spectroscopy, 306, 123612, 2024. https://doi.org/10.1016/j.saa.2023.123612
